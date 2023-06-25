@@ -21,6 +21,7 @@ Check out the live demo of the project [here](https://endorsement-project.netlif
 ## Installation
 1. Clone the repository: `git clone https://github.com/your/repository.git`
 2. Open the project folder.
+3. Run on localhost machine
 
 ## Usage
 1. Open the `index.html` file in your web browser.

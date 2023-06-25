@@ -10,7 +10,7 @@ This project showcases a simple web application that allows users to write and p
 - [Firebase Realtime Database](#firebase-realtime-database)
 
 ## Demo
-Check out the live demo of the project [here](https://endorsement-project.netlify.app/){:target="_blank"}.
+Check out the live demo of the project [here](https://endorsement-project.netlify.app/).
 
 ## Features
 - Users can write endorsements and specify the sender and recipient.

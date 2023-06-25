@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1924;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+img {
+    width: min(20vw, 135px);
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{ font-size:min(6vw, 35px); }
+h2{ font-size:min(4vw, 25px); }
+
+textarea{
+    border-radius: min(2vw, 8px);
+    background-color: #444059;
+    font-size: min(4vw, 25px);
+    border: none;
+    aspect-ratio: 8 / 1;
+    resize: none;
+    text-align: center;
+    color: #8F8F8F;
+    font-family: 'Inter';
+    padding: min(2vw, 12px) 0;
+}
+
+#endorsement-box{
+    aspect-ratio: 2.8 / 1; 
+    width: min(80vw, 545px);
+    text-align: initial;
+    padding: min(3vw, 12px) min(5vw, 19px);
+    box-sizing: border-box;
+}
+
+#identifier{
+    width: min(80vw, 545px);
+    margin-top: min(1vw, 15px);
+    display: flex;
+    justify-content: space-between;
+    gap: min(2vw, 12px);
+}
+
+button{
+    background: #28A9F1;
+    border-radius: min(2vw, 8px);
+    width: min(80vw, 545px);
+    aspect-ratio: 5.5 / 1;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size:min(4.5vw, 27px);
+    color: #04131C;
+    margin: min(2vw, 15px) 0px;
+    border: none;
+}
+
+button:hover{ background: #2e91c9; }
+
+#notes-container{
+    display: flex;
+    justify-content: center;
+    gap: min(3vw, 20px);
+    flex-wrap: wrap-reverse;
+    margin-bottom: 20px;
+}
+
+#endorsement-note{
+    width: min(79vw, 545px);
+    background-color: white;
+    padding: min(3vw, 30px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    font-family: 'Inter';
+    font-size: min(3vw, 25px);
+    color: #1B1924;
+    margin: min(3vw, 25px) 0px;
+}
+
+h6, .note-menu p{
+    margin: 0px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: min(4vw, 30px);
+    color: #1B1924;
+}
+
+.note-menu{
+    display: flex;
+}
+
+.note-menu img{
+    width: min(5vw, 34px);
+    cursor: pointer;
+    margin: 0 0 0 auto;
+}
+
+.note-menu:nth-child(1) img{
+    width: min(3vw, 34px);
+}
